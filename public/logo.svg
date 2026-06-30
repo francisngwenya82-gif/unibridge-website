@@ -1,0 +1,34 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graduation Cap (Navy Blue) -->
+  <polygon points="250,120 350,80 450,120 450,140 250,140" fill="#002855"/>
+  <polygon points="350,80 380,50 350,45 320,50" fill="#002855"/>
+  
+  <!-- Tassel (Gold) -->
+  <line x1="380" y1="50" x2="380" y2="110" stroke="#d4af37" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="380" cy="115" r="8" fill="#d4af37"/>
+  
+  <!-- Large U (Navy Blue) -->
+  <path d="M 200 200 Q 200 350 320 350 Q 440 350 440 200" fill="none" stroke="#002855" stroke-width="80" stroke-linecap="round"/>
+  
+  <!-- Bridge Left Side (Gold) -->
+  <path d="M 200 340 Q 180 380 150 420" fill="none" stroke="#d4af37" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 200 340 L 150 420" fill="none" stroke="#d4af37" stroke-width="4" opacity="0.5"/>
+  <path d="M 220 340 L 160 420" fill="none" stroke="#d4af37" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Bridge Arc (Gold) -->
+  <path d="M 150 420 Q 320 340 490 420" fill="none" stroke="#d4af37" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Bridge Right Side (Gold) -->
+  <path d="M 440 340 Q 460 380 490 420" fill="none" stroke="#d4af37" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 440 340 L 490 420" fill="none" stroke="#d4af37" stroke-width="4" opacity="0.5"/>
+  <path d="M 420 340 L 480 420" fill="none" stroke="#d4af37" stroke-width="4" opacity="0.5"/>
+  
+  <!-- Bridge Bottom Arc (Navy) -->
+  <path d="M 200 350 Q 320 420 440 350" fill="none" stroke="#002855" stroke-width="24" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Text: UniBridge -->
+  <text x="320" y="520" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#002855">Uni<tspan fill="#d4af37">Bridge</tspan></text>
+  
+  <!-- Text: CONSULTANCY -->
+  <text x="320" y="570" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#002855" letter-spacing="4">CONSULTANCY</text>
+</svg>
