@@ -40,15 +40,29 @@ nav {
   padding: 1rem 2rem;
 }
 
-.logo {
-  font-size: 1.5rem;
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
   font-weight: bold;
   color: var(--navy);
-  text-decoration: none;
+  transition: opacity 0.3s;
 }
 
-.logo span {
-  color: var(--gold);
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link svg {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--navy);
 }
 
 nav ul {
@@ -204,6 +218,39 @@ section h2 {
   font-weight: bold;
 }
 
+/* Universities Grid */
+.universities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.university-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-left: 4px solid var(--gold);
+  text-align: center;
+}
+
+.university-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.university-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.university-card h3 {
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
 /* Testimonials */
 #testimonials {
   background: white;
@@ -324,9 +371,16 @@ footer p {
     font-size: 2rem;
   }
 
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   nav ul {
     gap: 1rem;
     font-size: 0.9rem;
+    flex-direction: column;
+    text-align: center;
   }
 
   .contact-content {
